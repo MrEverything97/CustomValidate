@@ -1,6 +1,5 @@
 package com.phuongnam.config;
 
-import com.phuongnam.config.ApplicationConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class ApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {

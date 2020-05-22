@@ -1,9 +1,10 @@
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Congratulations</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title th:text="#{title.success}"></title>
 </head>
 <body>
-<h1>Congratulations! You are old enough to sign up for this site.</h1>
-<a href="/user">Back to SignUp page</a>
+<h1 th:text="#{login.success}"></h1>
+<a href="/" th:text="#{back.to.SignUp}">Back to SignUp page</a>
 </body>
 </html>

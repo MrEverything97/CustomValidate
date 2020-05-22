@@ -6,11 +6,9 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
 public class User {
-
     @NotEmpty
     @Size(min = 2, max = 30)
     private String name;
-
     @Min(18)
     @Max(100)
     private int age;

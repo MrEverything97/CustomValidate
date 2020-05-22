@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class UserController {
-    @GetMapping("/user")
+    @GetMapping("/")
     public ModelAndView showForm() {
         ModelAndView modelAndView = new ModelAndView("index");
         modelAndView.addObject("user", new User());
